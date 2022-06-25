@@ -1,0 +1,148 @@
+/* ESTILOS GERAIS */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #F8F8FF;
+}
+/* FIM */
+
+/* CONTAINER PRINCIPAL */
+section.container-principal{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center;    
+    align-content: center; */
+}
+/* FIM */
+
+/* CONTAINER DO CELULAR */
+.container-foto{
+    width: 50%;
+}
+
+.container-foto .foto{
+    max-width: 200px;
+    max-height: 200px;
+}
+/* FIM */
+
+/* CONTAINER SECUNDÁRIO */
+.container-secundario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    width: 100px;
+}
+
+.container-logo-inputs{
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 5px;
+}
+
+.container-logo-inputs .logo{
+    margin-top: 10px;
+}
+
+.container-inputs .form-inputs{
+    margin-bottom: 6px;
+}
+
+.container-inputs .form-inputs .inputs input{
+    background-color: #f8f8f8;
+    outline: none;
+    border: none;
+    text-align: left;
+    width: 70px;
+    height: 10px;
+    font-size: 0.5rem;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    padding-left: 1px;
+}
+
+.container-inputs .form-inputs .inputs button.entrar{
+    background-color: #1E90FF;
+    border-radius: 2px;
+    width: 70px;
+    height: 10px;
+    font-size: 0.5rem;
+    border: none;
+    color: #fff;
+}
+
+.container-inputs .form-inputs .inputs .ou{
+    padding-top: 4px;
+    font-size: 0.4rem;
+    opacity: 0.8;
+}
+
+.container-inputs .form-inputs .inputs .entrar-com-facebook .f-face{
+    color: #fff;
+    background-color: #4682B4;
+    width: 5px;
+    height: 6px;
+    font-size: 0.6em;
+    text-align: right;
+    display: inline-block;
+}
+
+.container-inputs .form-inputs .inputs .entrar-com-facebook .facebook{
+    font-size: 0.5em;
+    color: #4682B4;
+}
+
+.container-inputs .form-inputs .esqueceu-senha{
+    color:#dbdbdb;
+    font-size: 0.5em;
+    font-weight: bolder;
+}
+
+.container-cadastrar{
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.container-cadastrar .nao-tem-conta{
+    color: #dbdbdb;
+    font-weight: bolder;
+    font-size: 4px;
+}
+
+.container-cadastrar .cadastrar{
+    color: #1E90FF;
+    font-size: 4px;
+}
+
+.container-google-apple .obtenha-app{
+    color: #dbdbdb;
+    font-weight: bolder;
+    font-size: 0.4em;
+    padding-bottom: 2px;
+}
+.logo-apple, .logo-google{
+    max-height: 10px;
+    max-width: 50px;
+}
+/* FIM */
+
+@media(max-width:270px){
+    .container-foto{
+        display: none;
+    }
+}
