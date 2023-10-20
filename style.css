@@ -3,14 +3,14 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    font-size: 10px;
+    font-size: 16px;
     text-decoration: none;
     box-sizing: border-box;
 }
 
 html, body{
-    width: 100%;
-    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     background-color: #F8F8FF;
@@ -20,20 +20,22 @@ html, body{
 /* CONTAINER PRINCIPAL */
 section.container-principal{
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center;    
-    align-content: center; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 600px;
+
 }
 /* FIM */
 
 /* CONTAINER DO CELULAR */
-.container-foto{
+/* .container-foto{
     width: 50%;
-}
+} */
 
 .container-foto .foto{
-    max-width: 200px;
-    max-height: 200px;
+    width: 400px;
+    height: 580px;
 }
 /* FIM */
 
@@ -41,20 +43,26 @@ section.container-principal{
 .container-secundario{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     text-align: center;
-    margin-top: 20px;
-    width: 100px;
+    /* margin-top: 20px; */
+    /* height: 550px; */
 }
 
 .container-logo-inputs{
     background-color: white;
     border: 1px solid #dbdbdb;
     margin-bottom: 5px;
+    width: 300px;
 }
 
 .container-logo-inputs .logo{
-    margin-top: 10px;
+    margin: 40px 0 20px 0;
+}
+
+.container-logo-inputs .logo .logo-instagram{
+    width: 150px;
+    height: 50px;
 }
 
 .container-inputs .form-inputs{
@@ -66,48 +74,49 @@ section.container-principal{
     outline: none;
     border: none;
     text-align: left;
-    width: 70px;
-    height: 10px;
-    font-size: 0.5rem;
+    width: 200px;
+    height: 30px;
+    font-size: 1rem;
     border: 1px solid #dbdbdb;
     border-radius: 2px;
     padding-left: 1px;
+    margin-bottom: 4px;
 }
 
 .container-inputs .form-inputs .inputs button.entrar{
     background-color: #1E90FF;
-    border-radius: 2px;
-    width: 70px;
-    height: 10px;
-    font-size: 0.5rem;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 1rem;
     border: none;
     color: #fff;
 }
 
 .container-inputs .form-inputs .inputs .ou{
     padding-top: 4px;
-    font-size: 0.4rem;
+    font-size: 0.6rem;
     opacity: 0.8;
 }
 
 .container-inputs .form-inputs .inputs .entrar-com-facebook .f-face{
     color: #fff;
     background-color: #4682B4;
-    width: 5px;
-    height: 6px;
-    font-size: 0.6em;
-    text-align: right;
+    width: 15px;
+    /* height: 16px; */
+    font-size: 20px;
+    text-align: center;
     display: inline-block;
 }
 
 .container-inputs .form-inputs .inputs .entrar-com-facebook .facebook{
-    font-size: 0.5em;
+    font-size: 1rem;
     color: #4682B4;
 }
 
 .container-inputs .form-inputs .esqueceu-senha{
     color:#dbdbdb;
-    font-size: 0.5em;
+    font-size: 0.8rem;
     font-weight: bolder;
 }
 
@@ -121,27 +130,27 @@ section.container-principal{
 .container-cadastrar .nao-tem-conta{
     color: #dbdbdb;
     font-weight: bolder;
-    font-size: 4px;
+    font-size: 1rem;
 }
 
 .container-cadastrar .cadastrar{
     color: #1E90FF;
-    font-size: 4px;
+    font-size: 1rem;
 }
 
 .container-google-apple .obtenha-app{
     color: #dbdbdb;
     font-weight: bolder;
-    font-size: 0.4em;
+    font-size: 1rem;
     padding-bottom: 2px;
 }
 .logo-apple, .logo-google{
-    max-height: 10px;
-    max-width: 50px;
+    max-height: 100px;
+    max-width: 100px;
 }
 /* FIM */
 
-@media(max-width:270px){
+@media(max-width:600px){
     .container-foto{
         display: none;
     }
