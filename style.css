@@ -24,6 +24,7 @@ section.container-principal{
     align-items: center;
     margin-top: 20px;
     height: 600px;
+    border: 1px solid red;
 
 }
 /* FIM */
@@ -43,13 +44,8 @@ section.container-principal{
 .container-secundario{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     text-align: center;
-    /* margin-top: 20px; */
-    /* height: 550px; */
-    border: 1px solid red;
     width: 350px;
-    height: 550px;
 }
 
 .container-logo-inputs{
@@ -101,25 +97,37 @@ section.container-principal{
     padding-top: 4px;
     font-size: 0.6rem;
     opacity: 0.8;
+    color: #737373;
+}
+
+.entrar-com-facebook{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
 }
 
 .container-inputs .form-inputs .inputs .entrar-com-facebook .f-face{
     color: #fff;
-    background-color: #4682B4;
-    width: 15px;
-    /* height: 16px; */
+    background-color: #385185;
+    /* background-color: rgb(0, 149, 246); */
+    width: 16px;
+    height: 16px;
     font-size: 20px;
+    margin: 0 8px 0 0;
     text-align: center;
     display: inline-block;
 }
 
 .container-inputs .form-inputs .inputs .entrar-com-facebook .facebook{
-    font-size: 1rem;
-    color: #4682B4;
+    font-size: 14px;
+    /* color: #4682B4; */
+    color: #385185;
+    /* color: rgb( 53, 121, 234) ; */
 }
 
 .container-inputs .form-inputs .esqueceu-senha{
-    color:#dbdbdb;
+    /* color:#dbdbdb; */
+    color:#00376b;
     font-size: 0.8rem;
     font-weight: bolder;
 }
@@ -132,25 +140,33 @@ section.container-principal{
 }
 
 .container-cadastrar .nao-tem-conta{
-    color: #dbdbdb;
-    font-weight: bolder;
+    /* color: #000; */
+    /* font-weight: bolder; */
     font-size: 1rem;
+    margin: 15px;
 }
 
 .container-cadastrar .cadastrar{
-    color: #1E90FF;
+    /* color: #1E90FF; */
+    color: #0095f6;
+    /* color: rgb(0, 149, 246); */
     font-size: 1rem;
 }
 
 .container-google-apple .obtenha-app{
-    color: #dbdbdb;
-    font-weight: bolder;
+    /* color: #dbdbdb; */
+    /* font-weight: bolder; */
     font-size: 1rem;
-    padding-bottom: 2px;
+    /* padding-bottom: 2px; */
+    margin: 15px;
 }
-.logo-apple, .logo-google{
-    max-height: 100px;
-    max-width: 100px;
+.logo-microsoft{
+    height: 40px;
+    width: 110.76px;
+}
+.logo-google{
+    height: 40px;
+    width: 134.28px;
 }
 /* FIM */
 
