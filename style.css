@@ -24,8 +24,6 @@ section.container-principal{
     align-items: center;
     margin-top: 20px;
     height: 600px;
-    border: 1px solid red;
-
 }
 /* FIM */
 
@@ -94,10 +92,32 @@ section.container-principal{
 }
 
 .container-inputs .form-inputs .inputs .ou{
-    padding-top: 4px;
-    font-size: 0.6rem;
+    margin-top: 14px;
+    font-size: 0.8rem;
     opacity: 0.8;
     color: #737373;
+    position: relative;
+}
+
+.container-inputs .form-inputs .inputs .ou::before{
+    content: '';
+    width: 110px;
+    height: 1px;
+    display: block;
+    position: absolute;
+    left: 40px;
+    top: 6px;
+    background-color: #dbdbdb;
+}
+.container-inputs .form-inputs .inputs .ou::after{
+    content: '';
+    width: 110px;
+    height: 1px;
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 6px;
+    background-color: #dbdbdb;
 }
 
 .entrar-com-facebook{
